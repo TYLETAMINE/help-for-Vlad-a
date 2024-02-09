@@ -102,3 +102,93 @@ body {
 
     font-size: 21px;
 }
+
+.nr-cards {
+    padding: 20px 0;
+    width: 100%;
+
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nr-cards img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+.nr-cards p {
+    color: rgb(204, 146, 117);
+}
+
+.nr-cards span {
+    width: max-content;
+    color: rgb(168, 167, 167);
+}
+
+.chart-title {
+    width: 100%;
+
+    color: rgb(167, 167, 167);
+    padding-bottom: 3px;
+    border-bottom: solid 5px rgb(196, 94, 68);
+
+    font-size: 21px;
+}
+
+.chart div {
+    display: flex;
+    margin-left: 10px;
+}
+
+.chart img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+
+    object-fit: cover;
+}
+
+.name-music {
+    display: inline;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 5%;
+
+    color: rgb(204, 146, 117);
+}
+
+.name-music span {
+    color: rgb(168, 167, 167);
+}
+
+.empty-line {
+    border-bottom: solid 5px rgb(196, 94, 68);
+    width: 100%;
+    height: 5px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(46, 46, 46);
+    /* background-color: #272727; */
+    color: rgb(168, 167, 167);
+
+    height: 70px;
+    width: 100%;
+    overflow: scroll;
+}
+
+@media (max-width: 1600px) {
+    .nr-cards {
+        overflow-x: scroll;
+    }
+    
+}
