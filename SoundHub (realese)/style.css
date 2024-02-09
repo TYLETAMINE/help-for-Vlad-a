@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: fantasy, Times, serif;
+    background-image: url('source/img/priroda-gory-skaly-oblaka-nebo-zakat.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.header .user {
+    width: 40px;
+    height: 40px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    margin: 40px 0;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #272727;
+    /* min-width: 720px; */
+}
+
+@media (max-width: 1108px) {
+    .square {
+        width: 720px;
+    }
+}
+
+@media (max-width: 720px) {
+    .square {
+        width: 100%;
+    }
+}
+
+.main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+
+    list-style-type: none;
+    background-color: rgb(90, 90, 90);
+}
+
+.main-menu li a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+    color: #dddbdb;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.content__main {
+    width: 92%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content__main .main-text {
+    padding: 10px 0;
+    width: 100%;
+}
+
+.new-releases {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title-nr {
+    width: 100%;
+
+    color: rgb(167, 167, 167);
+    padding-bottom: 3px;
+    border-bottom: solid 5px rgb(196, 94, 68);
+
+    font-size: 21px;
+}
