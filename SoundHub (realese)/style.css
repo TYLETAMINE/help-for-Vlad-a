@@ -113,6 +113,21 @@ body {
     align-items: center;
 }
 
+.nr-cards::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.nr-cards::-webkit-scrollbar-track {
+    background: none;
+}
+
+.nr-cards::-webkit-scrollbar-thumb {
+    background-color: rgb(196, 94, 68);
+    width: 4px;
+    border-radius: 99px;
+}
+
 .nr-cards img {
     width: 230px;
     height: 230px;
@@ -183,12 +198,15 @@ footer {
 
     height: 70px;
     width: 100%;
-    overflow: scroll;
 }
 
 @media (max-width: 1600px) {
     .nr-cards {
         overflow-x: scroll;
+    }
+
+    .new-releases {
+        padding-bottom: 20px;
     }
     
 }
