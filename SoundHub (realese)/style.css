@@ -141,8 +141,23 @@ body {
 }
 
 .nr-cards span {
-    width: max-content;
+    /* width: max-content; */
     color: rgb(168, 167, 167);
+}
+
+.chart > div {
+    color: rgb(167, 167, 167);
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: center;
+    grid-gap: 10px;
+
+    justify-content: start;
+    align-items: center;
+}
+
+.chart > div > div > span {
+    color: rgb(204, 146, 117);
 }
 
 .chart-title {
@@ -154,32 +169,12 @@ body {
 
     font-size: 21px;
 }
-
-.chart div {
-    display: flex;
-    margin-left: 10px;
-}
-
 .chart img {
     width: 60px;
     height: 60px;
     border-radius: 10px;
 
     object-fit: cover;
-}
-
-.name-music {
-    display: inline;
-    align-items: center;
-    flex-wrap: wrap;
-    align-content: center;
-    width: 5%;
-
-    color: rgb(204, 146, 117);
-}
-
-.name-music span {
-    color: rgb(168, 167, 167);
 }
 
 .empty-line {
