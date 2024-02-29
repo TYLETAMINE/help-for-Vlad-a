@@ -74,6 +74,13 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 14px;
+    font-weight: 600;
+
+    transition: .3s;
+}
+
+.main-menu li a:hover {
+    color: rgb(196, 94, 68);
 }
 
 .content__main {
@@ -109,8 +116,9 @@ body {
 
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
+    gap: 10px;
 }
 
 .nr-cards::-webkit-scrollbar {
