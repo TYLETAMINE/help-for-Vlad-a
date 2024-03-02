@@ -212,6 +212,10 @@ footer {
     width: 100%;
 }
 
+#fakeImg {
+    z-index: 10;
+}
+
 @media (max-width: 1600px) {
     .nr-cards {
         overflow-x: scroll;
