@@ -7,3 +7,18 @@ for (var i = 0; i < images.length; i++) {
         event.target.parentNode.querySelector(".fake").style.display='none';
     })
 }
+
+var userLogo = document.getElementById('user')
+var profile = document.getElementById('auth')
+
+userLogo.addEventListener('mouseenter', function() {
+    if (profile.style.display == 'none') {
+        profile.style.display = 'flex'
+    }
+})
+
+profigghtnle.addEventListener('mouseleave', function() {
+    if (profile.style.display == 'flex') {
+        profile.style.display = 'none'
+    }
+})
